@@ -14,7 +14,7 @@
   --secondary: hsl(0, 0%, 10%, 0.6);
 }
 body {
-  background: url('https://images.pexels.com/photos/5095880/pexels-photo-5095880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background: url('./photo.jpeg');
 
   background-size: cover;
   background-repeat: no-repeat;
