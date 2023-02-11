@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bcci.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">BCCI SYSTEM</h1>
+      <p id="description">
+        Thank you for taking the time to help me improve my skill.<br />
+        Kung gamay ug sweldo way TAX!
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="info">
+        <label id="name-label" for="name">EMPLOYEE NAME: </label
+        ><input
+          id="name"
+          name="Name"
+          type="name"
+          placeholder="Your Full Name"
+          required
+        />
+      </div>
+      <div class="info">
+        <label id="company-label" for="company-name">COMPANY NAME </label
+        ><input
+          id="company-name"
+          name="company-name"
+          type="name"
+          placeholder="Your Company Name"
+          required
+        />
+      </div>
+      <div class="info">
+        <label id="salary-label" for="monthly-salary">MONTHLY SALARY: </label
+        ><input
+          id="monthly-salary"
+          type="value"
+          placeholder="Your Mothly Salary"
+          required
+        />
+      </div>
+      <div class="btn">
+        <button type="button" id="submit">Calculate</button>
+      </div>
+
+      <div class="result hidden">
+        <h3 class="empname">EMPLOYEE NAME:</h3>
+        <h3 class="compname">COMPANY NAME:</h3>
+        <h3 class="sal">MOTHLY SALARY:</h3>
+
+        <div class="deduction">
+          <h3 class="income-tax">INCOME TAX:</h3>
+          <h3 class="sss-contri">SSS CONTRIBUTION:</h3>
+          <h3 class="pag-ibig">PAG-IBIG:</h3>
+          <h3 class="philhealth">PHILHEALTH:</h3>
+        </div>
+      </div>
+      <div class="btn">
+        <button type="button" class="submit3 hidden">EXIT</button>
+      </div>
+
+      <!-- <div class="info">
+        <p>Which option describe your current role?</p>
+        <select id="dropdown" name="Status">
+          <option value="">Select current role</option>
+          <option value="Student">Student</option>
+          <option value="Full time job">Full time job</option>
+          <option value="Full time learner">Full time learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="info-radio">
+        <p>Do you go to church every sunday?</p>
+        <label class="radio-label"
+          ><input
+            type="radio"
+            value="Yes"
+            name="Church on sunday"
+            class="radio"
+            checked
+          />
+          Yes</label
+        >
+        <label
+          ><input
+            type="radio"
+            value="Yes"
+            name="Church on sunday"
+            class="radio"
+          />
+          No</label
+        >
+        <label>
+          <input
+            type="radio"
+            value="Sometimes"
+            name="Church on sunday"
+            class="radio"
+          />
+          Sometimes
+        </label>
+      </div>
+      <div class="info">
+        <p>What do you prefer on your free time?</p>
+        <select id="dropdown" name="Do's on free time">
+          <option value="">Select an option</option>
+          <option value="Hang out with friends">Hang out with friends</option>
+          <option value="Stay at home">Stay at home</option>
+          <option value="Go out with family">Go out with family</option>
+          <option value="Do projects">Do projects</option>
+          <option value="Play computer games">Play computer games</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="info-checkbox">
+        <p>what would you do if you won the lottery?</p>
+        <label
+          ><input
+            type="checkbox"
+            name="Win lottery"
+            value="Buy car"
+            class="checkbox"
+          />
+          Buy car</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Buy house" /> Buy
+          house</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Travel to europe" />
+          Travel to europe</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Buy a boat" /> Buy a
+          boat</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Buy airplane" /> Buy
+          airplane</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Help others" /> Help
+          others</label
+        >
+        <label
+          ><input type="checkbox" name="Win lottery" value="Other" />
+          Other</label
+        >
+      </div>
+      <div class="question">
+        <p>What improvements i need to work with this project?</p>
+      </div>
+      <div class="text">
+        <textarea
+          id="comments"
+          name="Comments"
+          class="text-area"
+          placeholder="Enter your comments here..."
+        ></textarea>
+      </div>
+      <div class="btn">
+        <button type="submit" id="submit">Submit</button>
+      </div> -->
+    </form>
+    <div class="divmsg hidden">
+      <p class="endMsg">THANK YOU YAWAA KA!</p>
+    </div>
+    <script src="bcci.js"></script>
+  </body>
+</html>
