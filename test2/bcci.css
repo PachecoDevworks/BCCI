@@ -14,7 +14,7 @@
   --secondary: hsl(0, 0%, 10%, 0.6);
 }
 body {
-  background: url('./test2/photo.jpeg');
+  background: url('../test2/photo.jpeg');
 
   background-size: cover;
   background-repeat: no-repeat;
